@@ -1,0 +1,278 @@
+.create-edit-box {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(132, 131, 131);
+}
+.container-all {
+  justify-content: center;
+}
+.all-container {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  margin-left: -15px;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+.form-all {
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  margin: auto;
+}
+@media (max-width: 375px) {
+  .form-all {
+    max-height: 1035px;
+  }
+  .form-control {
+    height: 48px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .price-control {
+    height: 56px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .cate-control {
+    height: 56px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .btn-create {
+    margin-right: 8px;
+  }
+  /* .mt-4 {
+      font-size: 32px;
+      font-family: "Inter";
+      text-align: center;
+    } */
+  .err-mess-sent {
+    font-size: 12px;
+  }
+}
+.images-preview-container {
+  /* display: grid; */
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(min(100px, 100%), 1fr));
+  gap: 10px;
+  margin-top: 40px;
+  border: 1px solid rgba(119, 116, 116, 0.497);
+  border-radius: 6px;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.image-preview {
+  width: 100px;
+  position: relative;
+  display: inline-block;
+  /* margin-left: 10px; */
+}
+.image-preview img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image-preview i,
+.remove-img-spinner {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.image-preview i:hover {
+  color: orange;
+}
+
+.mb-3 {
+  margin-top: 8px;
+  text-align: rigth;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.img-preview {
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: rgb(80, 72, 229);
+  border: 1px solid rgb(80, 72, 229);
+  border-radius: 3px;
+}
+
+/* .form-group-all {
+    border: none;
+    border-radius: 4px;
+  
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-top: 0px;
+    background-color: white;
+  } */
+.form-all {
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  margin: auto;
+  height: 780px;
+}
+.form-group-item {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.all-container {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  margin-left: -15px;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+body {
+  background-color: #7c858f19;
+}
+.category-price {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-right: 15px;
+}
+.mb-cat,
+.mb-pri {
+  width: 278px;
+  margin: auto;
+}
+/* .form-all {
+    border: 1px solid white;
+    margin-top: 40px;
+    border-radius: 4px;
+    background-color: white;
+    max-width: 564px;
+    height: 700px;
+  } */
+.img-content {
+  border: 1px solid black;
+}
+/* .mb-btn {
+    border: 1px solid black;
+  } */
+.btn-group {
+  width: 400px;
+  height: 90px;
+  /* align-items: center; */
+  text-align: center;
+}
+/* .mb-create {
+    margin-top: 70px;
+  } */
+.mt-4 {
+  font-size: 32px;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.mt-4-1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(132, 131, 131);
+}
+.form-control {
+  height: 56px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+.price-control2::placeholder {
+  color: rgba(119, 116, 116, 0.582);
+}
+.form-control::placeholder {
+  color: rgba(119, 116, 116, 0.582);
+}
+
+.price-control2 {
+  font-size: 14px;
+
+  height: 56px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.cate-control {
+  height: 56px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn-primary {
+  margin-left: -5px;
+}
+/* .form-control {
+    width: 100%;
+  }
+  .price-control {
+    max-width: 278px;
+  }
+  .cate-control {
+    max-width: 278px;
+  }
+  .btn-create {
+    margin-left: -10px;
+  } */
+.error-data {
+  font-size: 20px;
+}
+.success-data {
+  font-size: 20px;
+  background-color: rgba(0, 0, 255, 0.462);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.lable-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(132, 131, 131);
+}
+.err-mess-sent {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(255, 0, 0, 0.537);
+  text-align: right;
+}
+.upload-imges {
+  font-size: 13px;
+  width: 122px;
+  height: 30px;
+  background-color: rgba(80, 72, 229, 0.682);
+  color: white;
+  border: 1px solid rgba(115, 112, 112, 0.678);
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.create-primary {
+  font-size: 13px;
+  width: 122px;
+  height: 30px;
+  background-color: rgba(80, 72, 229, 0.682);
+  color: white;
+  border: 1px solid rgba(115, 112, 112, 0.678);
+  border-radius: 3px;
+  margin-left: 15px;
+}
+.faRegImages {
+  color: rgba(128, 128, 128, 0.675);
+  width: 40px;
+  height: 30px;
+  /* margin-top: 50px; */
+}

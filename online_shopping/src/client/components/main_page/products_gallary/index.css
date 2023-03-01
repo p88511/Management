@@ -1,0 +1,12 @@
+h2 {
+  padding: 0 0 0 0;
+  margin: 10 0 0 0;
+}
+.product-title {
+  text-align: left;
+  margin-left: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(132, 131, 131);
+  margin-bottom: 30px;
+}

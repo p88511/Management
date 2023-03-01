@@ -1,0 +1,14 @@
+Button {
+  background: #5048e5;
+  border-radius: 4px;
+}
+.price-option {
+  margin-top: 180px;
+  width: 170px;
+  height: 40px;
+  /* font-size: 15px; */
+}
+.price-option-left {
+  display: flex;
+  justify-content: left;
+}

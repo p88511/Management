@@ -1,0 +1,259 @@
+@media (max-width: 480px) {
+  .product__carousel--image {
+    max-width: 308px;
+    object-fit: cover;
+    max-height: 276px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 80px; */
+  }
+  .btn-primary {
+    background-color: rgba(80, 72, 229, 1);
+    border: none;
+    display: flex;
+    width: 133px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+  }
+  .btn-group {
+    margin-right: 5px;
+    padding-left: 15px;
+    margin-bottom: 35px;
+  }
+  .product__price {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+@media (max-width: 480px) {
+  .py-3 {
+    font-size: 13px;
+    color: rgba(107, 114, 128, 1);
+  }
+  .font-name {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .margin-bt {
+    margin-bottom: 200px;
+  }
+}
+
+.product__carousel--image {
+  /* max-width: 100%; */
+  object-fit: cover;
+  /* max-height: 500px; */
+  width: 550px;
+  height: 500px;
+  /* border: 2px solid rgba(201, 200, 200, 0.532); */
+}
+.product__carousel--image {
+  margin-left: 40px;
+  border-radius: 8px;
+}
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  display: none !important;
+}
+.mt-4 {
+  font-size: 32px;
+}
+.pt-4 {
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  margin-top: 30px;
+  /* margin-bottom: 60px; */
+}
+/* .btn-edit2 {
+      margin-bottom: 10px;
+    } */
+/* .product-content {
+    margin-left: 20px;
+  } */
+@media only screen and (max-width: 991px) {
+  .product__carousel--image {
+    margin-left: 50px;
+  }
+  /*  */
+}
+@media only screen and (max-width: 767.2px) {
+  .product__carousel--image {
+    margin-left: 3px;
+  }
+  /*  */
+}
+@media only screen and (max-width: 592px) {
+  .mar-container {
+    margin-bottom: 300px;
+  }
+}
+
+.mar-container {
+  margin-bottom: 80px;
+  margin-top: 150px;
+}
+.font-name {
+  color: rgba(83, 83, 83, 0.74);
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.font-category {
+  color: rgba(83, 83, 83, 0.375);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.font-name {
+  font-size: 26px;
+  margin-top: -10px;
+}
+.py-3 {
+  font-size: 16px;
+  color: rgba(107, 114, 128, 0.753);
+}
+.product__price {
+  font-size: 23px;
+  color: rgba(83, 83, 83, 0.74);
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn-primary2 {
+  width: 133px;
+}
+.minus-btn2 {
+  margin-left: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.add-btn2 {
+  margin-right: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.item-quinity {
+  margin-right: 8px;
+}
+.py3-stock {
+  font-size: 14px;
+  /* font-weight: bolder; */
+  border-radius: 5px;
+  margin-top: -10px;
+  border: 1px solid rgba(162, 29, 29, 0.43);
+  /* background-color: rgba(162, 29, 29, 0.43); */
+  width: 120px;
+  color: rgba(162, 29, 29, 0.43);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn-edit2 {
+  background-color: white;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  font-size: 17px;
+  border: 1px solid rgba(80, 72, 229, 1);
+  border-radius: 4px;
+  width: 90px;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  color: rgba(80, 72, 229, 0.682);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+.py-des {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.count-sty1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.add-btn3 {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: inline-block;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  margin-right: 5px;
+  border: 1px solid rgba(115, 112, 112, 0.678);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(80, 72, 229, 0.682);
+  border-radius: 4px;
+  color: white;
+  margin-top: auto;
+  cursor: pointer;
+}
+.minus-btn3 {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: inline-block;
+  justify-content: left;
+  align-items: center;
+  margin-left: 5px;
+  border: 1px solid rgba(115, 112, 112, 0.678);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(80, 72, 229, 0.682);
+  border-radius: 4px;
+  color: white;
+  margin-top: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.count-sty2 {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(115, 112, 112, 0.678);
+}
+.add-to-cart3 {
+  font-size: 17px;
+  border: 1px solid rgba(80, 72, 229, 1);
+  border-radius: 4px;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(115, 112, 112, 0.678);
+  margin-top: 3px;
+  cursor: pointer;
+  /* justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: rgba(115, 112, 112, 0.678);
+    margin-top: 3px;
+    cursor: pointer;
+    float: right; */
+}
+.productpage-btn-group {
+  margin-bottom: 20px;
+}
+.product-page-all-btn {
+  /* border: 1px solid black; */
+  width: 200px;
+}
+/* .pt-4-1 {
+    margin-left: 150px;
+  } */
+.remove-btn {
+  background-color: rgba(80, 72, 229, 0);
+  color: rgba(0, 0, 0, 0.368);
+  border: none;
+  margin-top: 8px;
+  margin-left: 14px;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

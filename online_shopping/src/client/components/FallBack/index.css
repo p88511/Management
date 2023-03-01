@@ -1,0 +1,15 @@
+.fail-all {
+  margin-top: 200px;
+  /* display: flex;
+  justify-content: center; */
+  color: rgb(112, 106, 225);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.mdOutlineSmsFailed {
+  width: 60px;
+  height: 60px;
+}
+.opps {
+  font-size: 80px;
+}

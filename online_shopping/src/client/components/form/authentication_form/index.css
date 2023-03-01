@@ -1,0 +1,66 @@
+/* .email-lable {
+  text-align: left;
+} */
+.lable-all-size {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #ababab;
+  /* margin-top: 20px; */
+}
+
+.signin-tit {
+  margin-bottom: 80px;
+  color: #8a8686;
+}
+.form-all-sty {
+  /* background-color: white; */
+
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.form-all-1 {
+  background-color: white;
+  height: 400px;
+  width: 350px;
+}
+.single-login-btn {
+  background-color: rgba(80, 72, 229, 0.625);
+  border: 1px solid rgba(115, 112, 112, 0.678);
+  color: white;
+  width: 65px;
+  height: 35px;
+  border-radius: 4px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.back-signin {
+  color: rgba(80, 72, 229, 0.726);
+  background-color: #8a868600;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.back-signin:hover {
+  color: rgba(171, 171, 172, 0.597);
+}
+.biArrowBack {
+  width: 20px;
+  height: 20px;
+  color: rgba(80, 72, 229, 0.625);
+  cursor: pointer;
+}
+.biArrowBack:hover {
+  color: rgba(171, 171, 172, 0.597);
+}
+.back {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #8a8686;
+}

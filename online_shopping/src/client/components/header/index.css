@@ -1,0 +1,450 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #111827;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 64px;
+  gap: 12px;
+}
+
+.searchBox {
+  margin-top: 10px;
+  margin-right: 30%;
+  width: 300px;
+  height: 38px;
+  border-radius: 20px;
+  cursor: pointer;
+  line-height: 38px;
+  height: 30px;
+  padding-left: 25px;
+}
+.navbar-dark {
+  background-color: rgb(17, 24, 39);
+  color: white;
+  /* height: 50px; */
+}
+.brand-btn {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+}
+.header-sigin {
+  font-size: 16px;
+  background-color: #11182700;
+  color: white;
+  border: none;
+  width: 100px;
+}
+.header-sigin:hover {
+  color: rgb(204, 203, 203);
+}
+.create-product {
+  border: none;
+  background-color: rgba(255, 228, 196, 0);
+}
+.basic-nav-dropdown {
+  width: 40px;
+}
+.drop-item {
+  color: white;
+}
+.logo {
+  width: 50px;
+}
+
+#cartcount {
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  vertical-align: top;
+  margin-left: -8px;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 9px;
+}
+
+.fa-shopping-cart {
+  font-size: 20px;
+}
+
+.notifications-container {
+  padding: 20px;
+  max-height: 200px;
+  overflow-y: scroll;
+  border: 1px solid gray;
+  background-color: white;
+  width: 200px;
+  z-index: 99;
+}
+
+.notification-read {
+  background-color: lightblue;
+}
+
+.notification-unread {
+  background-color: lightcoral;
+}
+.fas[data-count] {
+  position: relative;
+}
+
+.fa-bell {
+  font-size: 1.5em;
+}
+
+.fas[data-count]:after {
+  position: absolute;
+  right: -0.75em;
+  top: -0.75em;
+  content: attr(data-count);
+  padding: 0.5em;
+  border-radius: 10em;
+  line-height: 0.9em;
+  color: white;
+  background-color: red;
+  text-align: center;
+  min-width: 2em;
+  font: bold 0.4em sans-serif;
+}
+.barns-all {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar-brand .brand {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar-dark {
+  background-color: rgb(17, 24, 39);
+  color: white;
+}
+.fa-shopping-cart,
+#basic-nav-dropdown {
+  color: white;
+}
+.shop-cart {
+  color: white;
+}
+.footer {
+  background-color: rgb(17, 24, 39);
+  justify-content: center;
+  height: 60px;
+}
+.copy-right {
+  color: white;
+  font-size: 13px;
+  margin-left: 110px;
+}
+.icon-group {
+  color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.contact-group {
+  color: white;
+  font-size: 13px;
+}
+.footer-container {
+  justify-content: center;
+  margin-left: 100px;
+  align-items: center;
+}
+.contact,
+.privacy,
+.help {
+  float: left;
+  margin-right: 15px;
+}
+.insta-icon {
+  width: 22px;
+  height: 20px;
+  margin-right: 5px;
+  color: white;
+}
+.yt-icon {
+  width: 32px;
+  height: 25px;
+  margin-right: 5px;
+  color: white;
+}
+
+.twi-con {
+  width: 32px;
+  height: 25px;
+  color: white;
+}
+
+@media only screen and (max-width: 1296px) {
+  .copy-right {
+    color: white;
+    font-size: 13px;
+    margin-left: 170px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .copy-right {
+    color: white;
+    font-size: 13px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (max-width: 1268px) {
+  .copy-right {
+    color: white;
+    font-size: 13px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (max-width: 1185px) {
+  .copy-right {
+    color: white;
+    font-size: 13px;
+    margin-left: 90px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+@media only screen and (max-width: 976px) {
+  .copy-right {
+    color: white;
+    font-size: 13px;
+    margin-left: 40px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media only screen and (max-width: 827px) {
+  .copy-right {
+    font-size: 13px;
+    margin-left: -10px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: -15px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .contact-group {
+    color: white;
+    font-size: 10px;
+  }
+  .insta-icon {
+    width: 17px;
+    height: 15px;
+    margin-right: 5px;
+    color: white;
+  }
+  .yt-icon {
+    width: 27px;
+    height: 20px;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .twi-con {
+    width: 27px;
+    height: 20px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 704px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: -35px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .contact-group {
+    color: white;
+    font-size: 10px;
+  }
+  .insta-icon {
+    width: 17px;
+    height: 15px;
+    margin-right: 5px;
+    color: white;
+  }
+  .yt-icon {
+    width: 27px;
+    height: 20px;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .twi-con {
+    width: 27px;
+    height: 20px;
+    color: white;
+  }
+}
+@media only screen and (max-width: 633px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: -55px;
+  }
+  .icon-group {
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .contact-group {
+    color: white;
+    font-size: 10px;
+  }
+  .insta-icon {
+    width: 17px;
+    height: 15px;
+    margin-right: 5px;
+    color: white;
+  }
+  .yt-icon {
+    width: 27px;
+    height: 20px;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .twi-con {
+    width: 27px;
+    height: 20px;
+    color: white;
+  }
+}
+@media only screen and (max-width: 592px) {
+  .footer {
+    background-color: rgb(17, 24, 39);
+    justify-content: center;
+    height: 120px;
+  }
+
+  .copy-right {
+    font-size: 10px;
+    margin-left: 130px;
+    margin-top: -60px;
+  }
+  .icon-group {
+    color: white;
+    margin-top: 15px;
+    height: 40px;
+    margin-left: -120px;
+    margin-right: 50px;
+    width: 100px;
+  }
+  .contact-group {
+    color: white;
+    font-size: 10px;
+    width: 250px;
+    margin-top: 60px;
+    margin-left: -200px;
+  }
+  .insta-icon {
+    width: 17px;
+    height: 15px;
+    margin-right: 5px;
+    color: white;
+  }
+  .yt-icon {
+    width: 27px;
+    height: 20px;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .twi-con {
+    width: 27px;
+    height: 20px;
+    color: white;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: 60px;
+    margin-top: -60px;
+  }
+  /*  */
+}
+
+@media only screen and (max-width: 478px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: -60px;
+  }
+  /*  */
+}
+@media only screen and (max-width: 397px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: -60px;
+  }
+  /*  */
+}
+@media only screen and (max-width: 376px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: -60px;
+  }
+  /*  */
+}
+@media only screen and (max-width: 375px) {
+  .copy-right {
+    font-size: 10px;
+    margin-right: 2px;
+  }
+  /*  */
+}
+@media only screen and (max-width: 368px) {
+  .copy-right {
+    font-size: 10px;
+    margin-left: -5px;
+    margin-top: -60px;
+  }
+  /*  */
+}
