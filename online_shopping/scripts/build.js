@@ -173,7 +173,7 @@ function build(previousFileSizes) {
       if (
         process.env.CI &&
         (typeof process.env.CI !== "string" ||
-          process.env.CI.toLowerCase() == "false") &&
+          process.env.CI.toLowerCase() !== "false") &&
         messages.warnings.length
       ) {
         // Ignore sourcemap warnings in CI builds. See #8227 for more info.
