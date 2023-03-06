@@ -62,7 +62,7 @@ export default function Header({
               onClick={() => setPanelStatus(PANEL_STATUS.MAIN_PAGE)}
             >
               Adminmanagement
-              <Navbar.Brand className="brand">Chuwa</Navbar.Brand>
+              <Navbar.Brand className="brand">Ecommerse</Navbar.Brand>
             </Navbar.Brand>
           ) : (
             <Navbar.Brand
@@ -70,7 +70,7 @@ export default function Header({
               onClick={() => setPanelStatus(PANEL_STATUS.MAIN_PAGE)}
             >
               Management
-              <Navbar.Brand className="brand">Chuwa</Navbar.Brand>
+              <Navbar.Brand className="brand">Ecommerse</Navbar.Brand>
             </Navbar.Brand>
           )}
           {/* <Navbar.Brand>
